@@ -1244,7 +1244,7 @@ code {
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .description {
     bottom: 0;
     right: 0;
