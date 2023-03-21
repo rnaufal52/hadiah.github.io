@@ -1245,10 +1245,16 @@ code {
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .description {
     bottom: 0;
     right: 0;
     width: 100%;
+  }
+  .solar-syst {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
   }
 }
